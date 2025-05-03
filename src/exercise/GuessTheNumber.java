@@ -5,20 +5,20 @@ import java.util.Scanner;
 class Game{
     int randomNum,noOfGuesses=1,userInput;
     public Game(){
-        randomNum = (int)(Math.random()*10)+1;
+        this.randomNum = (int)(Math.random()*10)+1;
     }
     public void takeUserInput(){
         System.out.println("Please enter a number between 1 and 10 : ");
         Scanner sc = new Scanner(System.in);
-        userInput =  sc.nextInt();
+        this.userInput =  sc.nextInt();
     }
     public boolean isCorrect(){
-       if(userInput == randomNum){
+       if(this.userInput == this.randomNum){
            return true;
        }
        else{
            System.out.println("You have not guessed the number");
-           noOfGuesses++;
+           this.noOfGuesses++;
            return false;
        }
     }
@@ -33,7 +33,7 @@ public void playGame(){
         setNoOfGuesses();
 }
 public void setNoOfGuesses(){
-        noOfGuesses=1;
+        this.noOfGuesses=1;
     }
 }
 public class GuessTheNumber {

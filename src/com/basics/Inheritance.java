@@ -16,7 +16,7 @@ class Base{
     }
 }
 
-//for inheritance, we use entends keywords
+//for inheritance, we use entend keywords
 class Derived extends Base{
 int y;
 

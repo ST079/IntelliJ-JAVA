@@ -27,4 +27,7 @@ public class MethodsInJava {
         System.out.println(sum(1,2,7));
         System.out.println(foo(2,7));
     }
+
+    public static class DynamicMethodDispatch {
+    }
 }
