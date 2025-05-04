@@ -32,8 +32,6 @@ class MyEmp{
 public class constructors {
  public static void main(String[] args) {
      //using the constructors
-//  MyEmp kusum = new MyEmp(1,"Kusum Darlami");
-//  MyEmp sujan = new MyEmp(2,"Sujan Tamang");
      MyEmp kusum = new MyEmp();
   kusum.setId(1);
   kusum.setName("Jack");
