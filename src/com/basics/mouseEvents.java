@@ -1,11 +1,11 @@
 package com.basics;
-import java.awt.*;
+
 import java.awt.event.*;
 import javax.swing.*;
 public class mouseEvents extends JFrame implements MouseListener, MouseMotionListener {
-    JLabel statusLabel1, statusLabel2, statusLabel3, statusLabel4, statusLabel5, statusLabel6, statusLabel7;
+    JLabel statusLabel1, statusLabel2, statusLabel3, statusLabel4, statusLabel5;
     public mouseEvents(){
-        JFrame frame = new JFrame("MouseEvents");
+        setTitle("Mouse Events Example");
         setSize(400, 200);
         setLayout(null);
         setVisible(true);
